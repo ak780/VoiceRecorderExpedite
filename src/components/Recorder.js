@@ -159,9 +159,6 @@ const Recorder = () => {
                             <source src={audioUrl} type="audio/mp3" />
                             Your browser does not support the audio element.
                         </audio>
-                        <button onClick={() => document.querySelector('audio').play()} style={{ marginTop: '0.5rem' }}>
-                            Play Audio
-                        </button>
                     </div>
                 )}
                 <p style={{ marginTop: '2rem' }}>{message}</p>
